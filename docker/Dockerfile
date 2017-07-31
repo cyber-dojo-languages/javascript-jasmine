@@ -5,6 +5,6 @@ LABEL maintainer=jon@jaggersoft.com
 RUN rm -rf /usr/local/lib/node_modules/npm
 RUN n latest
 
-RUN npm install --global jasmine-node
+RUN npm install --global jasmine
 
 COPY red_amber_green.rb /usr/local/bin
