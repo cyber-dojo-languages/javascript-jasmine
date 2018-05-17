@@ -14,7 +14,8 @@
 #NODE_VERSION=8.2.1
 #NODE_VERSION=8.4.0
 #NODE_VERSION=9.4.0
-NODE_VERSION=9.10.1
+#NODE_VERSION=9.10.1
+NODE_VERSION=10.1.0
 
 # Use npm package 'n' to call jshint and jasmine with selected node version:
 if [ -f .jshintrc ]; then
