@@ -1,4 +1,4 @@
-FROM  cyberdojofoundation/javascript-node
+FROM cyberdojofoundation/javascript-node
 LABEL maintainer=jon@jaggersoft.com
 
 # reinstall npm. See https://github.com/npm/npm/issues/14232
