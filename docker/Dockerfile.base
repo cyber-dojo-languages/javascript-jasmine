@@ -1,6 +1,9 @@
 FROM cyberdojofoundation/javascript-node:6df9f12
 LABEL maintainer=jon@jaggersoft.com
 
-RUN npm install --global jasmine
+RUN mkdir /etc/jasmine
+WORKDIR /etc/jasmine
+COPY package.json .
+RUN npm install
 
 COPY red_amber_green.rb /usr/local/bin
