@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/javascript-jasmine.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/javascript-jasmine)
+[![Github Action (main)](https://github.com/cyber-dojo-languages/javascript-jasmine/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/javascript-jasmine/actions)
 
-## display_name="Javascript, jasmine"
-## image_name="cyberdojofoundation/javascript_node_jasmine"
+## display_name="Javascript 23.1.0, jasmine 5.4.0"
+## image_name="ghcr.io/cyber-dojo-languages/javascript_node_jasmine"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
