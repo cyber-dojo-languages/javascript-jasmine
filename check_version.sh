@@ -7,7 +7,7 @@ readonly JSON=`cat ${MY_DIR}/docker/image_name.json`
 [[ ${JSON} =~ ${REGEX} ]]
 readonly IMAGE_NAME="${BASH_REMATCH[1]}"
 
-readonly EXPECTED=v6.1.0
+readonly EXPECTED=v6.1
 readonly ACTUAL=$(docker run --rm -i ${IMAGE_NAME} sh -c 'npx jasmine version')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
