@@ -1,7 +1,10 @@
-FROM ghcr.io/cyber-dojo-languages/javascript-node:04531dc
+FROM ghcr.io/cyber-dojo-languages/javascript-node:f2d88b5
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /etc/jasmine
 WORKDIR /etc/jasmine
 COPY package.json .
 RUN npm install
+
+COPY install.sh .
+RUN ./install.sh && rm ./install.sh
